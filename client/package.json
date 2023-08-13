@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next build && next export"
   },
   "dependencies": {
     "@alicloud/dysmsapi20170525": "^2.0.23",
